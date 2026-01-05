@@ -24,4 +24,5 @@
 - [ ] Understand class imbalance and set proper sampling/weighting as necessary
 - [ ] Create an extensible base class neural network (extends L.LightningModule)
 - [ ] Create an architecture factory
+- [ ] Implement [MLFlow](https://mlflow.org/docs/latest/ml/getting-started/deep-learning/)
 - [ ] Test baseline architecture for performance (comp uses AUC-ROC)
