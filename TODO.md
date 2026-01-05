@@ -1,0 +1,26 @@
+- [x] Viz some data
+  - Categorical (by target)
+    - Each of these could be a 100% stacked bar chart
+      - Don't really care about counts, really just distribution of each
+    - [x] gender
+    - [x] marital_status
+    - [x] education_level
+    - [x] employment_status
+    - [x] loan_purpose
+    - [x] grade_subgrade
+  - Continuous
+    - [x] annual_income
+    - [x] debt_to_income_ratio
+    - [x] credit_score
+    - [x] loan_amount
+    - [x] interest_rate
+- [x] Create a preprocessor that
+  - [x] Controls which features are included
+  - [x] Encodes categorical variables
+  - [x] Scales continuous variables
+  - [x] Saves encoders, scalers, and processed data (for training)
+  - [x] Has a train mode that handles training vs inference differently (e.g. when data is passed in for inference, handle seamlessly)
+
+- [ ] Create an extensible base class neural network (extends L.LightningModule)
+- [ ] Create an architecture factory
+- [ ] Test baseline architecture for performance (comp uses AUC-ROC)
