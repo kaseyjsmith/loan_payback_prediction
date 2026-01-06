@@ -21,6 +21,8 @@
   - [x] Saves encoders, scalers, and processed data (for training)
   - [x] Has a train mode that handles training vs inference differently (e.g. when data is passed in for inference, handle seamlessly)
 
+- [ ] Understand class imbalance and set proper sampling/weighting as necessary
 - [ ] Create an extensible base class neural network (extends L.LightningModule)
 - [ ] Create an architecture factory
+- [ ] Implement [MLFlow](https://mlflow.org/docs/latest/ml/getting-started/deep-learning/)
 - [ ] Test baseline architecture for performance (comp uses AUC-ROC)
